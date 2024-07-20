@@ -19,7 +19,7 @@
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
-        <version>3.1.1</version>
+        <version>3.3.2</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -27,13 +27,13 @@
       <dependency>
         <groupId>org.web3j</groupId>
         <artifactId>core</artifactId>
-        <version>4.11.2</version>
+        <version>5.0.0</version>
       </dependency>
 
       <dependency>
         <groupId>org.camunda.bpm</groupId>
         <artifactId>camunda-bom</artifactId>
-        <version>7.20.0</version>
+        <version>7.22.0-alpha3</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
@@ -88,7 +88,7 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-        <version>3.1.1</version>
+        <version>3.2.0</version>
       </plugin>
 
       <!-- maven surefire -->
@@ -98,7 +98,6 @@
         <version>3.2.5</version>
         <configuration>
           <argLine>-XX:+EnableDynamicAgentLoading</argLine>
-          <argLine>-Xshare:off</argLine>
         </configuration>
       </plugin>
 
